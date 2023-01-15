@@ -13,5 +13,9 @@ func main() {
 	} else {
 		fmt.Println("woah you cant drink its not legal")
 	}
+       time.Sleep(8 * time.Second)
 
+	// Printed after sleep is over
+	fmt.Println("Sleep Over.....")
 }
+
